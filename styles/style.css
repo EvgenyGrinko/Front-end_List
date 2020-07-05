@@ -32,7 +32,7 @@ body {
 }
 
 .list {
-  height: 15rem;
+  height: 25rem;
   overflow: auto;
   color: rgb(207, 103, 55);
   background-color: #fff;
