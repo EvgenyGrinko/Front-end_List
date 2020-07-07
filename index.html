@@ -16,20 +16,24 @@
       />
       <div id="list" class="list"></div>
       <div class="all-buttons">
-        <button id="btnAllItems" class="btn allItemsColor">all</button>
-        <button id="btnActiveItems" class="btn activeItemsColor">
+        <button id="btnAllItems" class="btn allItems focused">
+          all
+        </button>
+        <button id="btnActiveItems" class="btn activeItems">
           active
         </button>
-        <button id="btnCompletedItems" class="btn completedItemsColor">
+        <button id="btnCompletedItems" class="btn completedItems">
           completed
         </button>
       </div>
-      <input
-        id="addElem"
-        class="input-bar"
-        type="text"
-        placeholder="Add new item"
-      />
+      <form action="#" type="submit" id="submit-form">
+        <input
+          id="addElem"
+          class="input-bar"
+          type="text"
+          placeholder="Add new item"
+        />
+      </form>
     </div>
   </body>
   <script src="./index.js"></script>
